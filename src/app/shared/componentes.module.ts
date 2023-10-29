@@ -7,11 +7,11 @@ import { ExploreContainerComponent } from './explore-container/explore-container
 
 
 @NgModule({
-  declarations: [HeaderTabComponent],
+  declarations: [HeaderTabComponent,ExploreContainerComponent],
   imports: [
     CommonModule,
     IonicModule
   ],
-  exports: [HeaderTabComponent]
+  exports: [HeaderTabComponent,ExploreContainerComponent]
 })
 export class ComponentesModule { }

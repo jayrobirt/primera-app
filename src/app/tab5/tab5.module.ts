@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ExploreContainerComponentModule } from '../shared/explore-container/explore-container.module';
 import { IonicModule } from '@ionic/angular';
 
 import { Tab5PageRoutingModule } from './tab5-routing.module';
@@ -15,7 +14,6 @@ import { ComponentesModule } from '../shared/componentes.module';
     FormsModule,
     IonicModule,
     Tab5PageRoutingModule,
-    ExploreContainerComponentModule,
     ComponentesModule
   ],
   declarations: [Tab5Page]
